@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  position: relative;
+  min-height: 100vh;
+}
+
+#right,
+#left {
+  flex: 1;
+  border: 2px none #009a22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#left {
+  background-color: #00000050;
+  font-family: "Josefin Sans", sans-serif;
+  color: whitesmoke;
+  padding: 1em;
+}
+#left h3 {
+  font-family: "Tektur", sans-serif;
+}
+#right img {
+  width: 400px;
+}
+#right {
+  justify-content: center;
+}
+body {
+  background-image: url("/images/rawcode.jpg");
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .footer {
+    position: absolute;
+  }
+}

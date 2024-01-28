@@ -1,0 +1,45 @@
+.contact-body {
+  background-image: url("/images/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-column h3 {
+  font-family: "Tektur", sans-serif;
+  color: rgb(230, 230, 230);
+  text-align: center;
+}
+.bottom-column {
+  background-color: rgba(2, 2, 2, 0.658);
+  width: inherit;
+  display: flex;
+}
+#right,
+#left {
+  display: flex;
+  justify-content: center;
+  height: inherit;
+  width: 100%;
+  margin: 5px;
+  color: whitesmoke;
+  padding: 2em;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .bottom-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer {
+    position: absolute;
+  }
+}
