@@ -31,7 +31,7 @@
   justify-content: center;
 }
 body {
-  background-image: url("/images/rawcode.jpg");
+  background-image: url(/../images/rawcode.jpg);
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@ body {
     flex-direction: column;
     align-items: center;
   }
-    .footer {
+  .footer {
     position: absolute;
   }
 }
