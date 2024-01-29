@@ -3,7 +3,7 @@ body {
   background-color: #030303;
 }
 #body-home {
-  background-image: url("/images/code-on-screen.jpg");
+  /* background-image: url("/images/code-on-screen.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
